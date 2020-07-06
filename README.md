@@ -1,6 +1,6 @@
 # Docker
-##Quick Start
-### Doker image
+
+## Doker image
 
 Search image
 ```sh
@@ -36,6 +36,7 @@ Build image:
 ```sh
 docker build --tag bulletinboard:1.0 .
 ```
+## Doker container
 
 run container:
 docker run --publish 8000:8080 --detach --name bb bulletinboard:1.0
